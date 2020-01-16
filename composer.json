@@ -1,0 +1,28 @@
+{
+    "name": "hoalook/php-tools",
+    "description": "PHP development tools",
+    "type": "library",
+    "keywords": ["php","tools"],
+    "homepage": "https://github.com/forwells",
+    "authors": [
+        {
+            "name": "tommy",
+            "email": "forwellzia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "version": "dev-master",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Phptools\\": "src/"
+        },
+        "files": ["src/unit/functions.php"]
+    },
+    "support": {
+        "email": "forwellzia@gmail.com",
+        "source": "https://github.com/forwells/php-tools"
+    }
+}
